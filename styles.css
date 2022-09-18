@@ -1,0 +1,108 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+/* Create three equal columns that float next to each other */
+.column1 {
+  float: left;
+  width: 45%;
+  padding: 30px;
+  text-align:justify
+}
+
+* Create three equal columns that float next to each other */
+.column2 {
+  float: left;
+  width: 45%;
+  padding: 30px;
+  text-align:justify
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+body {
+	background: #fdf5df;
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+border: 3px solid #f92c85;
+}
+h1, p {
+color: #f92c85 ;
+font-size: 12pt;
+}
+li {color: lightpink;
+}
+
+.second {
+  color: lightpink;
+}
+h1[class] {
+  text-align: center;
+}
+h1 {font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 300%}
+#main-heading {color: #5ebec4; font-size: 20pt}
+#task1 {color: #5ebec4; font-size: 20pt}
+#Requirments1 {color: #5ebec4; font-size: 20pt}
+#submission1 {color: #5ebec4; font-size: 20pt}
+#grading1 {color: #5ebec4; font-size: 20pt}
+#important {color: #5ebec4; font-size: 20pt}
+#deadline1 {color: #5ebec4; font-size: 20pt}
+#some {color: #5ebec4; font-size: 20pt}
+#contacts1 {color: #5ebec4; font-size: 20pt}
+#group {color: #5ebec4; font-size: 20pt}
+#table {color: #f92c85; font-size: 12pt}
+.banner {height: 400px; width:auto; background:  url(sky-panoramic-banner-background-cloud-sunset-clouds-154560508.jpeg) no-repeat top center; background-image:url(sky-panoramic-banner-background-cloud-sunset-clouds-154560508.jpeg))}
+
+#navigation {
+background: url(assets/images/navigation.png) top left repeat-x;
+display: block;
+float: left;
+width: 100%;
+}
+#navigation * {
+padding:0;
+margin:0;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-size: 1em;
+}
+#navigation ul {
+display: block;
+float: left;
+padding: 10px 0 0 0;
+}
+#navigation ul li {
+list-style: none;
+float: left;
+margin: 0 0 0 5px;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+a:link {
+color: #f92c85 ;
+}
+ a:visited {
+    color: lightpink;
+}
+a:hover {
+    color: red;
+}
